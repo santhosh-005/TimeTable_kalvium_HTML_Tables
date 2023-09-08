@@ -1,5 +1,25 @@
 table, th, td{
-  border: 2px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 20px;
+  margin: 100px;
 }
+table{
+  border: 2px solid red;
+}
+caption{
+  margin-bottom: 20px;
+}
+
+th{
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}
+tr:nth-child(odd){
+  background-color: rgb(224, 211, 211);
+}
+.days{
+  font-weight: bolder;
+}
+
